@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+}
+
+#display {
+
+    background-color: #505050;
+    color: white;
+    font-size: 5rem;
+    text-align: left;
+    justify-content: center;
+    width: 500px;
+}
+
+.key {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+    background-color: #000000;
+}
+
+button {
+    padding: 30px;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #e4e4e4;
+}
+
+button:hover {
+    background-color: #7e7e7e;
+}
+
+button:active {
+    background-color: #2c2c2c;
+}
+
+.operator-btn {
+    background-color: #ff8800;
+    color: white;
+}
+
+.operator-btn:hover {
+    background-color: #9b5a00;
+}

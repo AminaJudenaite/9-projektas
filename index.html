@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="lt">
 
+<head>
+    <meta charset="utf-8">
+    <title>Skaičiuotuvas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+
+        <div class="key">
+            <button onclick="isvedimas('7')">7</button>
+            <button onclick="isvedimas('8')">8</button>
+            <button onclick="isvedimas('9')">9</button>
+            <button class="operator-btn" onclick="isvedimas('+')">+</button>
+
+            <button onclick="isvedimas('4')">4</button>
+            <button onclick="isvedimas('5')">5</button>
+            <button onclick="isvedimas('6')">6</button>
+            <button class="operator-btn" onclick="isvedimas('-')">-</button>
+
+            <button onclick="isvedimas('1')">1</button>
+            <button onclick="isvedimas('2')">2</button>
+            <button onclick="isvedimas('3')">3</button>
+            <button class="operator-btn" onclick="isvedimas('*')">*</button>
+
+            <button onclick="isvedimas('0')">0</button>
+            <button onclick="isvedimas('.')">.</button>
+            <button onclick="skaiciuoti()" class="operator-btn">=</button>
+            <button onclick="isvedimas('/')" class="operator-btn">/</button>
+            <button onclick="isvalyti()" class="operator-btn">C</button>
+        </div>
+    </div>
+
+
+
+    <script src="custom.js"></script>
+</body>
+
+</html>
